@@ -2,7 +2,7 @@
 
 A high-performance, virtualized data grid for managing loan records with advanced filtering, sorting, and infinite scrolling capabilities.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ 
@@ -37,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-## 🏗️ Architecture & Design Decisions
+## Architecture & Design Decisions
 
 ### Core Architecture
 
@@ -105,29 +105,29 @@ const resultCache = new Map<string, Loan[]>()
 - **High Contrast**: Supports `prefers-contrast: high` media query
 - **Reduced Motion**: Respects `prefers-reduced-motion` preference
 
-## 🎛️ Features
+## Features
 
 ### Core Functionality
 
-#### ✅ Page Size Selector (25/50/100 rows)
+#### Page Size Selector (25/50/100 rows)
 - Controls pagination chunk size for infinite loading
 - Maintains scroll position on change (best effort)
 - Updates total page calculations dynamically
 
-#### ✅ Column Sorting
+#### Column Sorting
 - Click headers to cycle: none → ascending → descending → none
 - Stable sort algorithm (equal values maintain original order)
 - Visual indicators with proper ARIA attributes
 - Keyboard accessible (Enter/Space keys)
 
-#### ✅ Advanced Filtering
+#### Advanced Filtering
 - **Text Search**: Case-insensitive substring search on borrower names
 - **Status Filter**: Dropdown for Pending/Approved/Rejected/All
 - **Amount Range**: Min/Max numeric inputs with validation
 - **Date Range**: Start/End date pickers for close date filtering
 - **Combined Filters**: All filters work together seamlessly
 
-#### ✅ Virtual Scrolling + Infinite Loading
+#### Virtual Scrolling + Infinite Loading
 - Renders only visible rows for optimal performance
 - Loads data in pages as user scrolls
 - IntersectionObserver for automatic loading
@@ -150,22 +150,22 @@ const resultCache = new Map<string, Loan[]>()
 
 ### Stretch Goals Implemented
 
-#### ✅ Sticky Header
+#### Sticky Header
 - Header remains visible while scrolling
 - Filters and sort controls always accessible
 - Proper z-index layering
 
-#### ✅ CSV Export
+#### CSV Export
 - Exports current filtered/sorted view (max 1,000 rows)
 - Automatic filename with current date
 - Proper CSV formatting with quoted strings
 
-#### ✅ Responsive Design
+#### Responsive Design
 - Mobile-optimized layout
 - Collapsible filters on small screens
 - Touch-friendly interactions
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 ### Test Coverage (≥6 meaningful tests implemented)
 
@@ -217,7 +217,7 @@ npm run test src/test/utils.test.ts
 npm run test -- --watch
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -252,7 +252,7 @@ public/
     └── loans_100.json     # 100 records (dev)
 ```
 
-## ⚡ Performance Considerations
+## Performance Considerations
 
 ### Memory Management
 - **Lazy Loading**: Only loads data as needed
@@ -272,7 +272,7 @@ public/
 - **RequestAnimationFrame**: Smooth animations
 - **Intersection Observer**: Efficient scroll detection
 
-## 🔧 Configuration & Customization
+## Configuration & Customization
 
 ### Environment Variables
 ```bash
@@ -297,24 +297,24 @@ const DEBOUNCE_SEARCH = 300         // Search input debounce (ms)
 const DEBOUNCE_AMOUNT = 500         // Amount filter debounce (ms)
 ```
 
-## 🚨 Known Issues & Trade-offs
+## Known Issues & Trade-offs
 
 ### Trade-offs Made
 
 1. **Client-side Processing**: All operations happen in browser
-   - ✅ Pro: Immediate response, no server dependency
-   - ⚠️ Con: Memory usage scales with data size
-   - 💡 Mitigation: Virtual scrolling limits DOM size
+   - Pro: Immediate response, no server dependency
+   - Con: Memory usage scales with data size
+   - Mitigation: Virtual scrolling limits DOM size
 
 2. **Memoization Strategy**: Cache by filter/sort configuration
-   - ✅ Pro: Fast repeated operations
-   - ⚠️ Con: Memory overhead for cache
-   - 💡 Mitigation: Cache size limits and automatic cleanup
+   - Pro: Fast repeated operations
+   - Con: Memory overhead for cache
+   - Mitigation: Cache size limits and automatic cleanup
 
 3. **Page Size Changes**: Best-effort scroll position maintenance
-   - ✅ Pro: User doesn't lose context
-   - ⚠️ Con: May not be pixel-perfect due to virtualization
-   - 💡 Mitigation: Scrolls to approximate position
+   - Pro: User doesn't lose context
+   - Con: May not be pixel-perfect due to virtualization
+   - Mitigation: Scrolls to approximate position
 
 ### Potential Improvements (Future Iterations)
 
@@ -329,7 +329,7 @@ const DEBOUNCE_AMOUNT = 500         // Amount filter debounce (ms)
 - **Features Used**: IntersectionObserver, ResizeObserver, ES2020
 - **Polyfills**: Not included (add if IE support needed)
 
-## 📊 Data Generation
+## Data Generation
 
 The included data generator (`scripts/generate-data.ts`) creates deterministic test data using a seeded random number generator:
 
@@ -349,7 +349,7 @@ The included data generator (`scripts/generate-data.ts`) creates deterministic t
 npm run generate-data
 ```
 
-## 🤝 Contributing
+## Contributing
 
 This is a technical assessment project, but the code demonstrates production-ready patterns:
 
@@ -360,7 +360,7 @@ This is a technical assessment project, but the code demonstrates production-rea
 5. **Accessibility**: WCAG 2.1 compliance considerations
 6. **Code Quality**: ESLint/Prettier ready (add configs as needed)
 
-## 📝 Development Notes
+## Development Notes
 
 ### Commit History
 The repository demonstrates iterative development with meaningful commits:
