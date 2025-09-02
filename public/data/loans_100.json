@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "borrowerName": "John Garcia",
+    "amount": 238169,
+    "status": "Pending",
+    "closeDate": "2024-01-14"
+  },
+  {
+    "id": 2,
+    "borrowerName": "James Lewis",
+    "amount": 189778,
+    "status": "Pending",
+    "closeDate": "2025-07-13"
+  },
+  {
+    "id": 3,
+    "borrowerName": "Joseph Miller",
+    "amount": 90552,
+    "status": "Pending",
+    "closeDate": "2024-04-18"
+  },
+  {
+    "id": 4,
+    "borrowerName": "Ava Martin",
+    "amount": 163293,
+    "status": "Pending",
+    "closeDate": "2024-04-04"
+  },
+  {
+    "id": 5,
+    "borrowerName": "David White",
+    "amount": 114518,
+    "status": "Pending",
+    "closeDate": "2024-10-29"
+  },
+  {
+    "id": 6,
+    "borrowerName": "Robert Hernandez",
+    "amount": 351416,
+    "status": "Rejected",
+    "closeDate": "2025-02-14"
+  },
+  {
+    "id": 7,
+    "borrowerName": "John Garcia",
+    "amount": 45778,
+    "status": "Rejected",
+    "closeDate": "2025-07-11"
+  },
+  {
+    "id": 8,
+    "borrowerName": "Robert Gonzalez",
+    "amount": 10447,
+    "status": "Rejected",
+    "closeDate": "2024-07-23"
+  },
+  {
+    "id": 9,
+    "borrowerName": "Anna Lee",
+    "amount": 431350,
+    "status": "Pending",
+    "closeDate": "2025-02-11"
+  },
+  {
+    "id": 10,
+    "borrowerName": "Ava Robinson",
+    "amount": 424958,
+    "status": "Rejected",
+    "closeDate": "2024-01-08"
+  },
+  {
+    "id": 11,
+    "borrowerName": "Mark Robinson",
+    "amount": 416902,
+    "status": "Pending",
+    "closeDate": "2024-11-24"
+  },
+  {
+    "id": 12,
+    "borrowerName": "Matthew Miller",
+    "amount": 371840,
+    "status": "Approved",
+    "closeDate": "2024-06-08"
+  },
+  {
+    "id": 13,
+    "borrowerName": "Lisa Walker",
+    "amount": 346625,
+    "status": "Pending",
+    "closeDate": "2025-11-20"
+  },
+  {
+    "id": 14,
+    "borrowerName": "Jane Anderson",
+    "amount": 379672,
+    "status": "Rejected",
+    "closeDate": "2024-01-06"
+  },
+  {
+    "id": 15,
+    "borrowerName": "Matthew Brown",
+    "amount": 214374,
+    "status": "Approved",
+    "closeDate": "2025-04-01"
+  },
+  {
+    "id": 16,
+    "borrowerName": "Sarah Lopez",
+    "amount": 350115,
+    "status": "Approved",
+    "closeDate": "2025-04-25"
+  },
+  {
+    "id": 17,
+    "borrowerName": "Charlotte Smith",
+    "amount": 438094,
+    "status": "Pending",
+    "closeDate": "2024-01-25"
+  },
+  {
+    "id": 18,
+    "borrowerName": "Emma Wilson",
+    "amount": 498287,
+    "status": "Rejected",
+    "closeDate": "2025-09-22"
+  },
+  {
+    "id": 19,
+    "borrowerName": "Robert Garcia",
+    "amount": 476914,
+    "status": "Approved",
+    "closeDate": "2024-06-16"
+  },
+  {
+    "id": 20,
+    "borrowerName": "Sarah Thompson",
+    "amount": 135806,
+    "status": "Rejected",
+    "closeDate": "2025-03-22"
+  },
+  {
+    "id": 21,
+    "borrowerName": "Charlotte Miller",
+    "amount": 269370,
+    "status": "Pending",
+    "closeDate": "2024-01-14"
+  },
+  {
+    "id": 22,
+    "borrowerName": "Anthony Moore",
+    "amount": 270661,
+    "status": "Pending",
+    "closeDate": "2025-06-25"
+  },
+  {
+    "id": 23,
+    "borrowerName": "Chris Lee",
+    "amount": 12144,
+    "status": "Approved",
+    "closeDate": "2025-08-27"
+  },
+  {
+    "id": 24,
+    "borrowerName": "Mia Martin",
+    "amount": 66959,
+    "status": "Approved",
+    "closeDate": "2024-05-02"
+  },
+  {
+    "id": 25,
+    "borrowerName": "Mark Taylor",
+    "amount": 270693,
+    "status": "Rejected",
+    "closeDate": "2024-07-24"
+  },
+  {
+    "id": 26,
+    "borrowerName": "David Ramirez",
+    "amount": 108596,
+    "status": "Approved",
+    "closeDate": "2025-07-11"
+  },
+  {
+    "id": 27,
+    "borrowerName": "Charlotte Lee",
+    "amount": 430390,
+    "status": "Pending",
+    "closeDate": "2024-10-18"
+  },
+  {
+    "id": 28,
+    "borrowerName": "Charles Garcia",
+    "amount": 20648,
+    "status": "Pending",
+    "closeDate": "2025-11-07"
+  },
+  {
+    "id": 29,
+    "borrowerName": "Evelyn Thomas",
+    "amount": 466648,
+    "status": "Approved",
+    "closeDate": "2025-01-02"
+  },
+  {
+    "id": 30,
+    "borrowerName": "Isabella Anderson",
+    "amount": 405452,
+    "status": "Approved",
+    "closeDate": "2025-08-02"
+  },
+  {
+    "id": 31,
+    "borrowerName": "Mia Martin",
+    "amount": 59863,
+    "status": "Rejected",
+    "closeDate": "2025-07-14"
+  },
+  {
+    "id": 32,
+    "borrowerName": "Matthew Moore",
+    "amount": 132092,
+    "status": "Approved",
+    "closeDate": "2024-04-05"
+  },
+  {
+    "id": 33,
+    "borrowerName": "Thomas Williams",
+    "amount": 33635,
+    "status": "Rejected",
+    "closeDate": "2024-11-16"
+  },
+  {
+    "id": 34,
+    "borrowerName": "Daniel Lewis",
+    "amount": 429824,
+    "status": "Rejected",
+    "closeDate": "2025-10-05"
+  },
+  {
+    "id": 35,
+    "borrowerName": "Daniel Miller",
+    "amount": 142112,
+    "status": "Approved",
+    "closeDate": "2025-06-13"
+  },
+  {
+    "id": 36,
+    "borrowerName": "Thomas Martin",
+    "amount": 352121,
+    "status": "Rejected",
+    "closeDate": "2024-10-28"
+  },
+  {
+    "id": 37,
+    "borrowerName": "Ava Jones",
+    "amount": 176322,
+    "status": "Approved",
+    "closeDate": "2024-09-17"
+  },
+  {
+    "id": 38,
+    "borrowerName": "Matthew Anderson",
+    "amount": 40346,
+    "status": "Pending",
+    "closeDate": "2024-09-30"
+  },
+  {
+    "id": 39,
+    "borrowerName": "Christopher Jones",
+    "amount": 406701,
+    "status": "Rejected",
+    "closeDate": "2025-08-07"
+  },
+  {
+    "id": 40,
+    "borrowerName": "Chris Gonzalez",
+    "amount": 336541,
+    "status": "Rejected",
+    "closeDate": "2024-07-18"
+  },
+  {
+    "id": 41,
+    "borrowerName": "Emily Anderson",
+    "amount": 366131,
+    "status": "Rejected",
+    "closeDate": "2024-04-27"
+  },
+  {
+    "id": 42,
+    "borrowerName": "Chris Harris",
+    "amount": 238863,
+    "status": "Pending",
+    "closeDate": "2025-05-17"
+  },
+  {
+    "id": 43,
+    "borrowerName": "Matthew Harris",
+    "amount": 454121,
+    "status": "Approved",
+    "closeDate": "2025-06-04"
+  },
+  {
+    "id": 44,
+    "borrowerName": "Amelia Davis",
+    "amount": 165257,
+    "status": "Rejected",
+    "closeDate": "2024-05-01"
+  },
+  {
+    "id": 45,
+    "borrowerName": "John Moore",
+    "amount": 387942,
+    "status": "Pending",
+    "closeDate": "2024-04-24"
+  },
+  {
+    "id": 46,
+    "borrowerName": "Olivia Hernandez",
+    "amount": 72700,
+    "status": "Rejected",
+    "closeDate": "2025-07-11"
+  },
+  {
+    "id": 47,
+    "borrowerName": "Harper Robinson",
+    "amount": 474907,
+    "status": "Rejected",
+    "closeDate": "2024-12-12"
+  },
+  {
+    "id": 48,
+    "borrowerName": "Maria Jackson",
+    "amount": 397577,
+    "status": "Pending",
+    "closeDate": "2024-07-29"
+  },
+  {
+    "id": 49,
+    "borrowerName": "Maria Garcia",
+    "amount": 229462,
+    "status": "Approved",
+    "closeDate": "2025-01-04"
+  },
+  {
+    "id": 50,
+    "borrowerName": "Thomas Jackson",
+    "amount": 340874,
+    "status": "Rejected",
+    "closeDate": "2024-05-04"
+  },
+  {
+    "id": 51,
+    "borrowerName": "Sarah Walker",
+    "amount": 309257,
+    "status": "Pending",
+    "closeDate": "2024-05-03"
+  },
+  {
+    "id": 52,
+    "borrowerName": "Robert Lopez",
+    "amount": 468046,
+    "status": "Rejected",
+    "closeDate": "2024-01-19"
+  },
+  {
+    "id": 53,
+    "borrowerName": "Sophia Martinez",
+    "amount": 302492,
+    "status": "Rejected",
+    "closeDate": "2024-09-01"
+  },
+  {
+    "id": 54,
+    "borrowerName": "Thomas White",
+    "amount": 164467,
+    "status": "Pending",
+    "closeDate": "2025-10-02"
+  },
+  {
+    "id": 55,
+    "borrowerName": "Sophia Young",
+    "amount": 332092,
+    "status": "Rejected",
+    "closeDate": "2024-10-19"
+  },
+  {
+    "id": 56,
+    "borrowerName": "Thomas Jones",
+    "amount": 401248,
+    "status": "Rejected",
+    "closeDate": "2024-02-09"
+  },
+  {
+    "id": 57,
+    "borrowerName": "Isabella Smith",
+    "amount": 4696,
+    "status": "Pending",
+    "closeDate": "2025-01-02"
+  },
+  {
+    "id": 58,
+    "borrowerName": "William Garcia",
+    "amount": 360935,
+    "status": "Approved",
+    "closeDate": "2025-06-09"
+  },
+  {
+    "id": 59,
+    "borrowerName": "Michael Garcia",
+    "amount": 180782,
+    "status": "Rejected",
+    "closeDate": "2024-10-24"
+  },
+  {
+    "id": 60,
+    "borrowerName": "Olivia Ramirez",
+    "amount": 369279,
+    "status": "Approved",
+    "closeDate": "2024-04-02"
+  },
+  {
+    "id": 61,
+    "borrowerName": "Isabella Robinson",
+    "amount": 98213,
+    "status": "Approved",
+    "closeDate": "2024-02-17"
+  },
+  {
+    "id": 62,
+    "borrowerName": "Olivia Moore",
+    "amount": 180430,
+    "status": "Approved",
+    "closeDate": "2024-12-18"
+  },
+  {
+    "id": 63,
+    "borrowerName": "Lisa Gonzalez",
+    "amount": 304007,
+    "status": "Pending",
+    "closeDate": "2025-08-28"
+  },
+  {
+    "id": 64,
+    "borrowerName": "Robert Gonzalez",
+    "amount": 83264,
+    "status": "Pending",
+    "closeDate": "2025-01-12"
+  },
+  {
+    "id": 65,
+    "borrowerName": "Mia Martinez",
+    "amount": 441679,
+    "status": "Pending",
+    "closeDate": "2024-09-20"
+  },
+  {
+    "id": 66,
+    "borrowerName": "Harper Lee",
+    "amount": 348215,
+    "status": "Pending",
+    "closeDate": "2025-05-24"
+  },
+  {
+    "id": 67,
+    "borrowerName": "Charlotte Lee",
+    "amount": 357573,
+    "status": "Rejected",
+    "closeDate": "2024-04-28"
+  },
+  {
+    "id": 68,
+    "borrowerName": "Sarah Taylor",
+    "amount": 10319,
+    "status": "Pending",
+    "closeDate": "2024-04-02"
+  },
+  {
+    "id": 69,
+    "borrowerName": "Isabella Harris",
+    "amount": 45543,
+    "status": "Approved",
+    "closeDate": "2025-08-16"
+  },
+  {
+    "id": 70,
+    "borrowerName": "Matthew White",
+    "amount": 464781,
+    "status": "Rejected",
+    "closeDate": "2024-03-02"
+  },
+  {
+    "id": 71,
+    "borrowerName": "Thomas Martinez",
+    "amount": 421384,
+    "status": "Rejected",
+    "closeDate": "2025-09-19"
+  },
+  {
+    "id": 72,
+    "borrowerName": "Emma Harris",
+    "amount": 433175,
+    "status": "Pending",
+    "closeDate": "2024-07-09"
+  },
+  {
+    "id": 73,
+    "borrowerName": "Charlotte Harris",
+    "amount": 446374,
+    "status": "Rejected",
+    "closeDate": "2024-09-21"
+  },
+  {
+    "id": 74,
+    "borrowerName": "Michael Thompson",
+    "amount": 222814,
+    "status": "Pending",
+    "closeDate": "2025-04-17"
+  },
+  {
+    "id": 75,
+    "borrowerName": "Richard Harris",
+    "amount": 59052,
+    "status": "Rejected",
+    "closeDate": "2024-03-30"
+  },
+  {
+    "id": 76,
+    "borrowerName": "Thomas Clark",
+    "amount": 343840,
+    "status": "Pending",
+    "closeDate": "2024-03-02"
+  },
+  {
+    "id": 77,
+    "borrowerName": "Anthony Clark",
+    "amount": 451795,
+    "status": "Pending",
+    "closeDate": "2025-02-21"
+  },
+  {
+    "id": 78,
+    "borrowerName": "Charlotte Ramirez",
+    "amount": 458208,
+    "status": "Rejected",
+    "closeDate": "2024-12-17"
+  },
+  {
+    "id": 79,
+    "borrowerName": "Maria Smith",
+    "amount": 198666,
+    "status": "Pending",
+    "closeDate": "2024-08-29"
+  },
+  {
+    "id": 80,
+    "borrowerName": "Jane Harris",
+    "amount": 154117,
+    "status": "Rejected",
+    "closeDate": "2025-06-07"
+  },
+  {
+    "id": 81,
+    "borrowerName": "Anna Jones",
+    "amount": 178584,
+    "status": "Rejected",
+    "closeDate": "2024-11-03"
+  },
+  {
+    "id": 82,
+    "borrowerName": "Sarah Gonzalez",
+    "amount": 52340,
+    "status": "Approved",
+    "closeDate": "2024-05-16"
+  },
+  {
+    "id": 83,
+    "borrowerName": "Charles Jackson",
+    "amount": 366963,
+    "status": "Pending",
+    "closeDate": "2024-04-30"
+  },
+  {
+    "id": 84,
+    "borrowerName": "Richard Lee",
+    "amount": 257365,
+    "status": "Rejected",
+    "closeDate": "2024-01-20"
+  },
+  {
+    "id": 85,
+    "borrowerName": "Jane Smith",
+    "amount": 444197,
+    "status": "Pending",
+    "closeDate": "2025-06-19"
+  },
+  {
+    "id": 86,
+    "borrowerName": "Joseph Gonzalez",
+    "amount": 136126,
+    "status": "Rejected",
+    "closeDate": "2025-12-29"
+  },
+  {
+    "id": 87,
+    "borrowerName": "Jane Anderson",
+    "amount": 238190,
+    "status": "Approved",
+    "closeDate": "2024-10-02"
+  },
+  {
+    "id": 88,
+    "borrowerName": "Lisa Johnson",
+    "amount": 420028,
+    "status": "Rejected",
+    "closeDate": "2024-02-12"
+  },
+  {
+    "id": 89,
+    "borrowerName": "James Davis",
+    "amount": 498788,
+    "status": "Pending",
+    "closeDate": "2024-08-09"
+  },
+  {
+    "id": 90,
+    "borrowerName": "James Thompson",
+    "amount": 162546,
+    "status": "Pending",
+    "closeDate": "2025-02-12"
+  },
+  {
+    "id": 91,
+    "borrowerName": "Christopher Thomas",
+    "amount": 21321,
+    "status": "Rejected",
+    "closeDate": "2024-06-24"
+  },
+  {
+    "id": 92,
+    "borrowerName": "Charles Miller",
+    "amount": 2892,
+    "status": "Approved",
+    "closeDate": "2024-04-27"
+  },
+  {
+    "id": 93,
+    "borrowerName": "Emily Anderson",
+    "amount": 71921,
+    "status": "Pending",
+    "closeDate": "2025-04-24"
+  },
+  {
+    "id": 94,
+    "borrowerName": "Charles Anderson",
+    "amount": 285258,
+    "status": "Rejected",
+    "closeDate": "2024-09-23"
+  },
+  {
+    "id": 95,
+    "borrowerName": "Isabella Gonzalez",
+    "amount": 183471,
+    "status": "Pending",
+    "closeDate": "2025-04-22"
+  },
+  {
+    "id": 96,
+    "borrowerName": "Amelia Sanchez",
+    "amount": 7801,
+    "status": "Pending",
+    "closeDate": "2025-07-02"
+  },
+  {
+    "id": 97,
+    "borrowerName": "Anthony Smith",
+    "amount": 257632,
+    "status": "Rejected",
+    "closeDate": "2025-01-10"
+  },
+  {
+    "id": 98,
+    "borrowerName": "Olivia Robinson",
+    "amount": 86315,
+    "status": "Pending",
+    "closeDate": "2025-09-24"
+  },
+  {
+    "id": 99,
+    "borrowerName": "Emma Sanchez",
+    "amount": 11674,
+    "status": "Approved",
+    "closeDate": "2025-11-07"
+  },
+  {
+    "id": 100,
+    "borrowerName": "Daniel Martinez",
+    "amount": 477778,
+    "status": "Approved",
+    "closeDate": "2025-07-17"
+  }
+]
